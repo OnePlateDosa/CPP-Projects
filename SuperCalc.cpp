@@ -47,7 +47,7 @@ int main()
 			cout << endl << endl << "Error, its not my fault. You did something wrong";
 		}
 	}
-	else if (digCount == 2) {
+	else if (digCount == 3) {
 
 		double dig1;
 		char sign;

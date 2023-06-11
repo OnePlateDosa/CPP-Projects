@@ -46,10 +46,8 @@ int main()
 		else {
 			cout << endl << endl << "Error, its not my fault. You did something wrong";
 		}
-		
-		Sleep(5000);
 	}
-	else {
+	else if (digCount == 2) {
 
 		double dig1;
 		char sign;
@@ -149,8 +147,12 @@ int main()
 		else {
 			cout << endl << endl << "Error, its not my fault. You did something wrong";
 		}
-
-		Sleep(5000);
 	}
+	
+	else {
+		cout << endl << "I refuse.";
+	}
+	
+	Sleep(7000);
 }
 

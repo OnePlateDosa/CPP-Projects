@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <Windows.h>
 // Don't use namespace std, you will get a bunch of namespace conflictions.
 // Just type std:: before everything in namespace std.
 // using namespace std;
@@ -146,5 +146,6 @@ int main()
 		}
                std::cout << "The answer is: " << result << std::endl;
 	}
+    Sleep(7000);
     return 0;
 }

@@ -150,7 +150,7 @@ int main()
 	}
 	
 	else {
-		cout << endl << "I refuse.";
+		cout << endl << "I refuse. I don't want to do it.";
 	}
 	
 	Sleep(7000);

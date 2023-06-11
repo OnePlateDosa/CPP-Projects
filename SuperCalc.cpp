@@ -38,13 +38,13 @@ int main()
 			result = dig1 * dig2;
 			cout << endl << "The answer is: " << result;
 		}
-		else {
+		else if (sign == '/') {
 			result = dig1 / dig2;
 			cout << endl << "The answer is: " << result;
 		}
-
-		
-
+		else {
+			cout << endl << endl << "Error, its not my fault. You did something wrong";
+		}
 	}
 	else {
 

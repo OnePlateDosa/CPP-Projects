@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include <windows.h>
 
 using namespace std;
 
@@ -45,6 +46,8 @@ int main()
 		else {
 			cout << endl << endl << "Error, its not my fault. You did something wrong";
 		}
+		
+		Sleep(5000);
 	}
 	else {
 
@@ -147,7 +150,7 @@ int main()
 			cout << endl << endl << "Error, its not my fault. You did something wrong";
 		}
 
-		
+		Sleep(5000);
 	}
 }
 
